@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ที่อยู่จัดส่ง - Food Order</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-card">
+    <h1>Food Order</h1>
+    <h2>ที่อยู่จัดส่ง</h2>
+    <p>กรุณากรอกข้อมูลสำหรับจัดส่งอาหาร</p>
+    <label>ชื่อผู้รับ</label>
+    <br>
+
+    <input
+        class="form-input"
+        type="text"
+        id="name"
+        placeholder="กรอกชื่อผู้รับ"
+    >
+    <br>
+    <br>
+    <label>เบอร์โทรศัพท์</label>
+    <br>
+
+    <input
+        class="form-input"
+        type="text"
+        id="deliveryPhone"
+        placeholder="กรอกเบอร์โทรศัพท์"
+    >
+    <br>
+    <br>
+
+    <label>ที่อยู่</label>
+    <br>
+
+    <textarea
+        class="form-input"
+        id="address"
+        placeholder="บ้านเลขที่ ถนน ตำบล อำเภอ จังหวัด"
+    ></textarea>
+    <br>
+    <br>
+
+    <button class="address-button" onclick="saveAddress()">
+        บันทึกที่อยู่
+    </button>
+    <script src="script.js"></script>
+    </div>
+</body>
+</html>

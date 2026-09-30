@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ติดตามออเดอร์</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-card">
+    <h1>Food Order</h1>
+    <h2 class="tracking-title">
+        🚚 ติดตามออเดอร์
+    </h2>
+    <p>สถานะออเดอร์</p>
+    <h3 id="orderStatus">
+        กำลังโหลดสถานะ...
+    </h3>
+    <p id="orderMessage">
+        กำลังโหลดข้อมูล...
+    </p>
+    <h3 class="order-section-title">
+        📍 ข้อมูลจัดส่ง
+    </h3>
+
+    <p id="trackingCustomerName">
+        กำลังโหลด...
+    </p>
+
+    <p id="trackingCustomerPhone">
+        กำลังโหลด...
+    </p>
+
+    <p id="trackingCustomerAddress">
+        กำลังโหลด...
+    </p>
+    <h3>รายการอาหาร</h3>
+
+    <div id="trackingItems">
+         กำลังโหลดรายการอาหาร...
+    </div>
+
+    <h3>💰 ราคารวม</h3>
+
+    <p id="trackingTotal">
+         กำลังคำนวณ...
+    </p>
+
+    <br>
+    <button class="cancel-button" onclick="cancelOrder()">
+    ยกเลิกออเดอร์
+</button>
+
+<br>
+
+<button id="prepareButton" onclick="prepareOrder()">
+    เริ่มเตรียมอาหาร
+</button>
+
+<br>
+
+<button id="deliveryButton" onclick="startDelivery()">
+    เริ่มจัดส่ง
+</button>
+
+<br>
+
+<button id="completeButton" onclick="completeOrder()">
+    ส่งสำเร็จ
+</button>
+
+<br>
+
+<button
+    class="back-food-button"
+    onclick="window.location.href='food.html'"
+>
+    🍽️ กลับไปเลือกอาหาร
+</button>
+
+<br>
+</div>
+<script src="script.js"></script>
+
+<script>
+    loadTracking();
+</script>
+</body>
+</html>

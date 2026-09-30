@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ตรวจสอบออเดอร์ - Food Order</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-card">
+    <h1>Food Order</h1>
+    <h2>ตรวจสอบออเดอร์</h2>
+    <h2 class="order-section-title">
+        📦 ข้อมูลจัดส่ง
+    </h2>
+
+    <p id="customerName">
+    กำลังโหลด...
+    </p>
+
+    <p id="customerPhone">
+    กำลังโหลด...
+    </p>
+
+    <p id="customerAddress">
+    กำลังโหลด...
+    </p>
+    <p>กรุณาตรวจสอบรายการอาหารก่อนยืนยัน</p>
+
+    <h3>รายการอาหาร</h3>
+    <div id="orderItems" class="order-items">
+        กำลังโหลดรายการอาหาร...
+    </div>
+    </div>
+
+    <h3>ราคารวม</h3>
+    <p id="orderTotal">
+        กำลังคำนวณ...
+    </p>
+
+    <br>
+    <button class="order-button" onclick="confirmOrder()">
+        ยืนยันการสั่งอาหาร
+    </button>
+    <button
+    class="back-button"
+    onclick="window.location.href='food.html'">
+    ← กลับไปเลือกอาหาร
+</button>
+    <script src="script.js"></script>
+    <script>
+        loadOrder();
+    </script>
+    </div>
+</body>
+</html>

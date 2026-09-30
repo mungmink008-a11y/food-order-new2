@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ก๋วยเตี๋ยว - Food Order</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="page-card">
+
+    <h1>🍜 ก๋วยเตี๋ยว</h1>
+
+    <p class="food-subtitle">
+        เลือกเมนูก๋วยเตี๋ยวที่ต้องการ
+    </p>
+
+    <div class="food-group">
+
+        <button class="food-button"
+            onclick="addToCart('ก๋วยเตี๋ยวหมูน้ำใส', 50)">
+
+  <img
+    src="https://thai-awesome.com/uimg/recipe/92289865-bc9c-47d2-93c3-5ed1db851147.jpeg"
+    alt="ก๋วยเตี๋ยวหมูน้ำใส"
+    class="food-image">
+
+            <span class="food-name">
+                ก๋วยเตี๋ยวหมูน้ำใส
+            </span>
+
+            <span class="food-price">
+                50 บาท
+            </span>
+
+                </button>
+
+        <button class="food-button"
+            onclick="addToCart('ก๋วยเตี๋ยวหมูต้มยำ', 55)">
+
+            <img
+                src="https://commons.wikimedia.org/wiki/Special:FilePath/Spicy%20tom%20yum%20noodle%20with%20pork%202022.jpg"
+                alt="ก๋วยเตี๋ยวหมูต้มยำ"
+                class="food-image">
+
+            <span class="food-name">
+                ก๋วยเตี๋ยวหมูต้มยำ
+            </span>
+
+            <span class="food-price">
+                55 บาท
+            </span>
+
+        <button class="food-button"
+    onclick="addToCart('ก๋วยเตี๋ยวเนื้อน้ำใส', 60)">
+
+    <img
+        src="https://commons.wikimedia.org/wiki/Special:FilePath/Kuaitiao%20nuea%20pueay.JPG"
+        alt="ก๋วยเตี๋ยวเนื้อน้ำใส"
+        class="food-image">
+
+    <span class="food-name">
+        ก๋วยเตี๋ยวเนื้อน้ำใส
+    </span>
+
+    <span class="food-price">
+        60 บาท
+    </span>
+
+</button>
+<button class="food-button"
+    onclick="addToCart('ก๋วยเตี๋ยวไก่', 55)">
+<img
+    src="https://img.wongnai.com/p/256x256/2024/06/06/4a693e85a6b44330af533946b635d8f3.jpg"
+    alt="ก๋วยเตี๋ยวไก่"
+    class="food-image">
+
+    <span class="food-name">
+        ก๋วยเตี๋ยวไก่
+    </span>
+
+    <span class="food-price">
+        55 บาท
+    </span>
+
+</button>
+<button class="food-button"
+    onclick="addToCart('ก๋วยเตี๋ยวลูกชิ้นปลา', 55)">
+
+<img
+    src="https://commons.wikimedia.org/wiki/Special:FilePath/Kuaitiao%20rice%20noodle%20soup%20with%20fish%20ball%EF%BC%88%E9%AD%9A%E3%81%AE%E3%81%A4%E3%81%BF%E3%82%8C%E3%81%8C%E5%85%A5%E3%81%A3%E3%81%9F%E3%82%AF%E3%82%A1%E3%82%A4%E3%83%86%E3%82%A3%E3%82%AA%E3%83%BB%E3%83%8A%E3%83%BC%E3%83%A0%EF%BC%89.JPG"
+    alt="ก๋วยเตี๋ยวลูกชิ้นปลา"
+    class="food-image">
+
+    <span class="food-name">
+        ก๋วยเตี๋ยวลูกชิ้นปลา
+    </span>
+
+    <span class="food-price">
+        55 บาท
+    </span>
+
+</button>
+<button class="food-button"
+    onclick="addToCart('ก๋วยเตี๋ยวเย็นตาโฟ', 60)">
+
+   <img
+    src="https://commons.wikimedia.org/wiki/Special:FilePath/2019%2001%20Yen%20tafo.jpg"
+    alt="ก๋วยเตี๋ยวเย็นตาโฟ"
+    class="food-image">
+
+    <span class="food-name">
+        ก๋วยเตี๋ยวเย็นตาโฟ
+    </span>
+
+    <span class="food-price">
+        60 บาท
+    </span>
+
+</button>
+<button class="food-button"
+    onclick="addToCart('บะหมี่เป็ด', 65)">
+
+<img
+    src="https://commons.wikimedia.org/wiki/Special:FilePath/Yellow%20noodle%20soup%20with%20duck%20at%20Urai%20Roasted%20Duck%2C%20Nawamin%20Road%20%288636850619%29.jpg"
+    alt="บะหมี่เป็ด"
+    class="food-image">
+
+    <span class="food-name">
+        บะหมี่เป็ด
+    </span>
+
+    <span class="food-price">
+        65 บาท
+    </span>
+
+</button>
+<button class="food-button"
+    onclick="addToCart('บะหมี่เกี๊ยว', 55)">
+
+<img
+    src="https://commons.wikimedia.org/wiki/Special:FilePath/Bami%20mu%20daeng%20kiao.JPG"
+    alt="บะหมี่เกี๊ยว"
+    class="food-image">
+
+    <span class="food-name">
+        บะหมี่เกี๊ยว
+    </span>
+
+    <span class="food-price">
+        55 บาท
+    </span>
+
+</button>
+
+<button class="food-button"
+    onclick="addToCart('ก๋วยเตี๋ยวต้มยำทะเล', 70)">
+
+<img
+    src="https://img.wongnai.com/p/256x256/2017/09/14/9e484fa20e464ff1bc036578363e7e02.jpg"
+    alt="ก๋วยเตี๋ยวต้มยำทะเล"
+    class="food-image">
+
+    <span class="food-name">
+        ก๋วยเตี๋ยวต้มยำทะเล
+    </span>
+
+    <span class="food-price">
+        70 บาท
+    </span>
+
+</button>
+<button class="food-button"
+    onclick="addToCart('ก๋วยเตี๋ยวเรือ', 60)">
+
+    <img
+        class="food-image"
+        src="https://commons.wikimedia.org/wiki/Special:FilePath/%E0%B9%80%E0%B8%95%E0%B8%B5%E0%B9%8B%E0%B8%A2%E0%B8%A7%E0%B9%80%E0%B8%A3%E0%B8%B7%E0%B8%AD.jpg"
+        alt="ก๋วยเตี๋ยวเรือ">
+
+    <span class="food-name">
+        ก๋วยเตี๋ยวเรือ
+    </span>
+
+    <span class="food-price">
+        60 บาท
+    </span>
+
+</button>
+    <button
+    class="back-button bottom-back-button"
+    onclick="window.location.href='food.html'">
+    ← กลับไปเลือกประเภทอาหาร
+</button>
+
+    <div class="cart-section">
+
+    <h2 class="cart-title">🛒 ตะกร้าอาหาร</h2>
+
+    <div id="cart">
+        ยังไม่มีอาหารในตะกร้า
+    </div>
+
+    <button class="order-button" onclick="goToOrder()">
+        ตรวจสอบออเดอร์
+    </button>
+
+<button
+    class="order-button"
+    onclick="window.location.href='order.html'">
+    🛒 ดูตะกร้าอาหาร
+</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

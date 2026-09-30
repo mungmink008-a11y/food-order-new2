@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ขนม - Food Order</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="page-card">
+
+    <h1>🍰 ขนม</h1>
+
+    <p class="food-subtitle">
+        เลือกเมนูขนมที่ต้องการ
+    </p>
+
+    <div class="food-group">
+        <button class="food-button"
+    onclick="addToCart('ข้าวเหนียวมะม่วง', 60)">
+
+    <img
+        src="https://commons.wikimedia.org/wiki/Special:FilePath/Mango%20with%20Sticky%20Rice%20P1130097.JPG"
+        alt="ข้าวเหนียวมะม่วง"
+        class="food-image">
+
+    <span class="food-name">
+        ข้าวเหนียวมะม่วง
+    </span>
+
+    <span class="food-price">
+        60 บาท
+    </span>
+
+</button>
+<button class="food-button"
+    onclick="addToCart('ทับทิมกรอบ', 50)">
+
+    <img
+        src="https://commons.wikimedia.org/wiki/Special:FilePath/Tub%20tim%20krob%20in%20Singapore%20-%2020050520.jpg"
+        alt="ทับทิมกรอบ"
+        class="food-image">
+
+    <span class="food-name">
+        ทับทิมกรอบ
+    </span>
+
+    <span class="food-price">
+        50 บาท
+    </span>
+
+</button>
+<button class="food-button"
+    onclick="addToCart('บัวลอย', 45)">
+
+    <img
+    src="https://commons.wikimedia.org/wiki/Special:FilePath/Bualoy%20kaiwan%20-%20Thai%20food.JPG"
+    alt="บัวลอย"
+    class="food-image">
+
+    <span class="food-name">
+        บัวลอย
+    </span>
+
+    <span class="food-price">
+        45 บาท
+    </span>
+
+</button>
+<button class="food-button"
+    onclick="addToCart('ลอดช่องน้ำกะทิ', 45)">
+
+ <img
+    src="https://commons.wikimedia.org/wiki/Special:FilePath/Lot%20chong%20-%20Bangkok%20-%202017-07-11%20%28003%29.jpg"
+    alt="ลอดช่องน้ำกะทิ"
+    class="food-image">
+
+    <span class="food-name">
+        ลอดช่องน้ำกะทิ
+    </span>
+
+    <span class="food-price">
+        45 บาท
+    </span>
+
+</button>
+<button class="food-button"
+    onclick="addToCart('เฉาก๊วยนมสด', 45)">
+
+<img
+    src="https://img.wongnai.com/p/256x256/2023/08/21/3b30c8bbeee54524a1eea60cf3372bde.jpg"
+    alt="เฉาก๊วยนมสด"
+    class="food-image">
+
+    <span class="food-name">
+        เฉาก๊วยนมสด
+    </span>
+
+    <span class="food-price">
+        45 บาท
+    </span>
+
+</button>
+<button class="food-button"
+    onclick="addToCart('ขนมครก', 40)">
+
+<img
+    src="https://commons.wikimedia.org/wiki/Special:FilePath/DFC%200023%20Golden-brown%20Thai%20coconut%20pancakes%20khanom%20krok%20served%20in%20small%20green%20banana-leaf%20cups%20fresh%20from%20the%20griddle.jpg"
+    alt="ขนมครก"
+    class="food-image">
+
+    <span class="food-name">
+        ขนมครก
+    </span>
+
+    <span class="food-price">
+        40 บาท
+    </span>
+
+</button>
+<button class="food-button"
+    onclick="addToCart('ทองหยอด', 40)">
+
+    <img
+        src="https://commons.wikimedia.org/wiki/Special:FilePath/%E0%B8%82%E0%B8%99%E0%B8%A1%E0%B8%97%E0%B8%AD%E0%B8%87%E0%B8%AB%E0%B8%A2%E0%B8%AD%E0%B8%94.jpg"
+        alt="ทองหยอด"
+        class="food-image">
+
+    <span class="food-name">
+        ทองหยอด
+    </span>
+
+    <span class="food-price">
+        40 บาท
+    </span>
+
+</button>
+<button class="food-button"
+    onclick="addToCart('ฝอยทอง', 40)">
+
+    <img
+        src="https://commons.wikimedia.org/wiki/Special:FilePath/Foi%20thong.jpg"
+        alt="ฝอยทอง"
+        class="food-image">
+
+    <span class="food-name">
+        ฝอยทอง
+    </span>
+
+    <span class="food-price">
+        40 บาท
+    </span>
+
+</button>
+<button class="food-button"
+    onclick="addToCart('ขนมชั้น', 40)">
+
+    <img
+        src="https://commons.wikimedia.org/wiki/Special:FilePath/Khanom%20chan.jpg"
+        alt="ขนมชั้น"
+        class="food-image">
+
+    <span class="food-name">
+        ขนมชั้น
+    </span>
+
+    <span class="food-price">
+        40 บาท
+    </span>
+
+</button>
+<button class="food-button"
+    onclick="addToCart('ข้าวเหนียวสังขยา', 50)">
+
+    <img
+        src="https://commons.wikimedia.org/wiki/Special:FilePath/Sticky%20rice%20with%20custard.jpg"
+        alt="ข้าวเหนียวสังขยา"
+        class="food-image">
+
+    <span class="food-name">
+        ข้าวเหนียวสังขยา
+    </span>
+
+    <span class="food-price">
+        50 บาท
+    </span>
+
+</button>
+
+    </div>
+    <button
+        class="back-button"
+        onclick="window.location.href='food.html'">
+        ← กลับไปเลือกประเภทอาหาร
+    </button>
+
+    <h2 class="cart-title">🛒 ตะกร้าอาหาร</h2>
+
+    <div id="cart">
+        ยังไม่มีอาหารในตะกร้า
+    </div>
+    
+
+    <button class="order-button" onclick="goToOrder()">
+        ตรวจสอบออเดอร์
+    </button>
+
+    <button
+    class="order-button"
+    onclick="window.location.href='order.html'">
+    🛒 ดูตะกร้าอาหาร
+</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

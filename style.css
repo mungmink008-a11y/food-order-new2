@@ -1,0 +1,663 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f0;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#cart {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+button {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #eeeeee;
+    transform: scale(1.03);
+}
+
+body {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #d35400;
+    margin-bottom: 25px;
+    font-size: 36px;
+}
+
+h2 {
+    color: #333333;
+    margin-top: 25px;
+    font-size: 28px;
+}
+
+button {
+    margin: 5px;
+}
+
+h3 {
+    color: #555555;
+    margin-top: 25px;
+    font-size: 21px;
+}
+
+#cart {
+    border-left: 5px solid #d35400;
+}
+
+button[onclick="goToOrder()"] {
+    background-color: #d35400;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+button[onclick="goToOrder()"]:hover {
+    background-color: #a04000;
+}
+
+.food-button {
+    min-width: 220px;
+    height: 50px;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: 0.2s;
+    background-color: #fff3e6;
+    border: 1px solid #f0a05a;
+}
+
+.food-button {
+    width: 220px;
+    min-height: 70px;
+    font-size: 17px;
+    border-radius: 12px;
+}
+
+p {
+    color: #666666;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+#cart {
+    line-height: 1.8;
+}
+
+button[onclick="goToOrder()"] {
+    margin-top: 20px;
+    min-width: 220px;
+}
+
+.page-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+}
+
+.food-button:hover {
+    background-color: #ffe0c2;
+}
+
+#cart {
+    margin-bottom: 20px;
+}
+
+#cart {
+    font-size: 17px;
+}
+
+.login-button {
+    background-color: #d35400;
+    color: white;
+    border: none;
+    min-width: 220px;
+    font-weight: bold;
+}
+
+.login-button:hover {
+    background-color: #a04000;
+}
+
+.form-input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.address-button {
+    background-color: #d35400;
+    color: white;
+    border: none;
+    min-width: 220px;
+    font-weight: bold;
+}
+
+.address-button:hover {
+    background-color: #a04000;
+}
+
+.order-button {
+    background-color: #d35400;
+    color: white;
+    border: none;
+    min-width: 220px;
+    font-weight: bold;
+}
+
+.order-button:hover {
+    background-color: #a04000;
+}
+
+.cancel-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    min-width: 220px;
+    font-weight: bold;
+}
+
+.cancel-button:hover {
+    background-color: #c0392b;
+}
+
+#orderStatus {
+    background-color: #fff3e6;
+    padding: 15px;
+    border-radius: 10px;
+    border-left: 5px solid #d35400;
+    font-size: 22px;
+}
+
+#orderMessage {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    line-height: 1.6;
+}
+
+#orderItems {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 5px solid #d35400;
+    line-height: 1.8;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+#orderTotal {
+    font-size: 24px;
+    font-weight: bold;
+    color: #d35400;
+    margin-bottom: 20px;
+}
+
+.order-button {
+    margin-top: 10px;
+}
+
+.cancel-button {
+    margin-top: 20px;
+}
+
+.food-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+#cart {
+    min-height: 50px;
+}
+
+button[onclick="goToOrder()"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.address-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.order-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cancel-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#customerName,
+#customerPhone,
+#customerAddress {
+    background-color: white;
+    padding: 12px 15px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border-left: 4px solid #d35400;
+}
+
+.food-group {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.food-subtitle {
+    text-align: center;
+    font-size: 18px;
+    color: #777777;
+    margin-bottom: 35px;
+}
+
+.category-title {
+    text-align: left;
+    background-color: #fff3e6;
+    padding: 12px 18px;
+    border-radius: 12px;
+    color: #d35400;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.food-group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+    margin-bottom: 30px;
+}
+
+.food-button {
+    width: 100%;
+    min-height: 280px;
+    padding: 12px;
+    text-align: left;
+    background-color: white;
+    border: 1px solid #eeeeee;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    transition: 0.2s;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.food-button:hover {
+    background-color: #fff8f0;
+    transform: translateY(-4px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12);
+}
+
+.food-name {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 12px;
+}
+
+.food-price {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #d35400;
+}
+
+.cart-title {
+    margin-top: 35px;
+    text-align: center;
+}
+
+#cart {
+    background-color: #fffaf5;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 15px;
+    border: 1px solid #f0d5bd;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    line-height: 2;
+    font-size: 17px;
+    min-height: 50px;
+    text-align: right;
+}
+
+#cart button {
+    padding: 5px 12px;
+    margin-left: 5px;
+    font-size: 16px;
+    border-radius: 6px;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+#cart button:hover {
+    background-color: #fff0e0;
+    transform: none;
+}
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 10px;
+    }
+
+    .page-card {
+        padding: 20px 15px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+
+    .food-group {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .food-button {
+        min-height: 90px;
+    }
+
+    .food-name {
+        font-size: 18px;
+    }
+
+    .food-price {
+        font-size: 17px;
+    }
+
+}
+
+.order-button {
+    width: 100%;
+    max-width: 400px;
+    min-height: 55px;
+    font-size: 18px;
+    border-radius: 12px;
+    background-color: #d35400;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 25px;
+    transition: 0.2s;
+}
+
+.order-button:hover {
+    background-color: #a04000;
+    transform: translateY(-2px);
+}
+
+.order-section-title {
+    text-align: left;
+    background-color: #fff3e6;
+    padding: 12px 18px;
+    border-radius: 12px;
+    color: #d35400;
+    margin-top: 30px;
+}
+
+.order-items-box {
+    background-color: white;
+    padding: 5px;
+    margin-top: 15px;
+    border-radius: 15px;
+    border: 1px solid #eeeeee;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+#orderTotal {
+    background-color: #fff3e6;
+    padding: 15px 20px;
+    border-radius: 12px;
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+    color: #d35400;
+    border-left: 5px solid #d35400;
+    margin-top: 15px;
+}
+
+.order-button {
+    width: 100%;
+    max-width: 400px;
+    min-height: 58px;
+    font-size: 19px;
+    border-radius: 12px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 25px auto 10px;
+    display: block;
+    transition: 0.2s;
+}
+
+.order-button:hover {
+    background-color: #219150;
+    transform: translateY(-2px);
+}
+
+.tracking-title {
+    text-align: center;
+    color: #d35400;
+    margin-bottom: 25px;
+}
+
+#orderStatus {
+    background-color: #fff3e6;
+    padding: 18px;
+    border-radius: 12px;
+    border-left: 5px solid #d35400;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#orderMessage {
+    background-color: white;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid #eeeeee;
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+#trackingItems {
+    background-color: white;
+    padding: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: 1px solid #eeeeee;
+    border-left: 5px solid #d35400;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    font-size: 17px;
+    line-height: 2;
+}
+
+#prepareButton,
+#deliveryButton,
+#completeButton {
+    width: 100%;
+    max-width: 300px;
+    min-height: 50px;
+    margin: 10px auto;
+    display: block;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#prepareButton {
+    background-color: #f1c40f;
+    color: white;
+    border: none;
+}
+
+#deliveryButton {
+    background-color: #3498db;
+    color: white;
+    border: none;
+}
+
+#completeButton {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+}
+
+#prepareButton:hover,
+#deliveryButton:hover,
+#completeButton:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
+
+.back-food-button {
+    width: 100%;
+    max-width: 300px;
+    min-height: 50px;
+    margin: 20px auto 0;
+    display: block;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #d35400;
+    color: white;
+    border: none;
+}
+
+.back-food-button:hover {
+    background-color: #a04000;
+    transform: translateY(-2px);
+}
+
+#trackingCustomerName,
+#trackingCustomerPhone,
+#trackingCustomerAddress {
+    background-color: white;
+    padding: 12px 15px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border-left: 4px solid #d35400;
+    font-size: 16px;
+}
+
+.tracking-total-title {
+    background-color: #fff3e6;
+    padding: 12px 18px;
+    border-radius: 12px;
+    color: #d35400;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+#trackingTotal {
+    background-color: #fffaf5;
+    padding: 15px 20px;
+    border-radius: 12px;
+    border-left: 5px solid #d35400;
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+    color: #d35400;
+    margin-bottom: 20px;
+}
+
+.food-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    display: block;
+}
+
+.back-button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    background: #eeeeee;
+    color: #333333;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    background: #dddddd;
+}
+
+.cart-section {
+    width: 100%;
+    text-align: center;
+    grid-column: 1 / -1;
+}
+
+.bottom-back-button {
+    grid-column: 1 / -1;
+    display: block;
+    margin: 20px auto;
+}
+
+.cart-total {
+    text-align: right;
+    font-weight: bold;
+}

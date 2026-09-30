@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>อาหารตามสั่ง - Food Order</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="page-card">
+
+    <h1>🍳 อาหารตามสั่ง</h1>
+
+    <p class="food-subtitle">
+        เลือกเมนูอาหารตามสั่งที่ต้องการ
+    </p>
+
+    <div class="food-group">
+
+        <button class="food-button"
+    onclick="addToCart('ข้าวกะเพราไก่', 50)">
+
+   <img
+    src="https://images.pexels.com/photos/12824410/pexels-photo-12824410.jpeg?auto=compress&cs=tinysrgb&w=800"
+    alt="ข้าวกะเพราไก่"
+    class="food-image">
+
+        <span class="food-name">
+            ข้าวกะเพราไก่
+        </span>
+
+        <span class="food-price">
+            50 บาท
+        </span>
+
+        </button>
+
+        <button class="food-button"
+            onclick="addToCart('ข้าวกะเพราหมู', 50)">
+        <img
+    src="https://commons.wikimedia.org/wiki/Special:FilePath/Pad%20Krapow%20Moo%20%285329148305%29.jpg"
+    alt="ข้าวกะเพราหมู"
+    class="food-image">
+
+            <span class="food-name">
+                ข้าวกะเพราหมู
+            </span>
+
+            <span class="food-price">
+                50 บาท
+            </span>
+
+        </button>
+
+        <button class="food-button"
+            onclick="addToCart('ข้าวกะเพราหมูกรอบ', 60)">
+        <img
+    src="https://commons.wikimedia.org/wiki/Special:FilePath/Kraphao%20mu%20krop.jpg"
+    alt="ข้าวกะเพราหมูกรอบ"
+    class="food-image">
+            <span class="food-name">
+                ข้าวกะเพราหมูกรอบ
+            </span>
+
+            <span class="food-price">
+                60 บาท
+            </span>
+
+        </button>
+
+        <button class="food-button"
+            onclick="addToCart('ข้าวผัดหมู', 50)">
+    <img
+    src="https://images.pexels.com/photos/34683321/pexels-photo-34683321.jpeg?auto=compress&cs=tinysrgb&w=800"
+    alt="ข้าวผัดหมู"
+    class="food-image">
+
+            <span class="food-name">
+                ข้าวผัดหมู
+            </span>
+
+            <span class="food-price">
+                50 บาท
+            </span>
+
+        </button>
+
+        <button class="food-button"
+            onclick="addToCart('ข้าวผัดไก่', 50)">
+    <img
+    src="https://images.pexels.com/photos/34668501/pexels-photo-34668501.jpeg?auto=compress&cs=tinysrgb&w=800"
+    alt="ข้าวผัดไก่"
+    class="food-image">
+            <span class="food-name">
+                ข้าวผัดไก่
+            </span>
+
+            <span class="food-price">
+                50 บาท
+            </span>
+
+        </button>
+
+        <button class="food-button"
+            onclick="addToCart('ข้าวผัดกุ้ง', 60)">
+   <img
+    src="https://images.pexels.com/photos/37173662/pexels-photo-37173662.jpeg?auto=compress&cs=tinysrgb&w=800"
+    alt="ข้าวผัดกุ้ง"
+    class="food-image">
+
+            <span class="food-name">
+                ข้าวผัดกุ้ง
+            </span>
+
+            <span class="food-price">
+                60 บาท
+            </span>
+
+        </button>
+
+        <button class="food-button"
+            onclick="addToCart('ข้าวหมูกระเทียม', 50)">
+    <img
+    src="https://commons.wikimedia.org/wiki/Special:FilePath/Mu%20thot%20krathiam.jpg"
+    alt="ข้าวหมูกระเทียม"
+    class="food-image">
+
+            <span class="food-name">
+                ข้าวหมูกระเทียม
+            </span>
+
+            <span class="food-price">
+                50 บาท
+            </span>
+
+        </button>
+
+        <button class="food-button"
+            onclick="addToCart('ข้าวไก่กระเทียม', 50)">
+  <img
+    src="https://images.pexels.com/photos/10748639/pexels-photo-10748639.jpeg?auto=compress&cs=tinysrgb&w=800"
+    alt="ข้าวไก่กระเทียม"
+    class="food-image">
+
+
+            <span class="food-name">
+                ข้าวไก่กระเทียม
+            </span>
+
+            <span class="food-price">
+                50 บาท
+            </span>
+
+        </button>
+
+        <button class="food-button"
+            onclick="addToCart('ข้าวคะน้าหมู', 50)">
+     <img
+    src="https://s359.kapook.com/pagebuilder/a8a1fb49-f651-40a5-9705-26a98ab0ea66.jpg"
+    alt="ข้าวคะน้าหมู"
+    class="food-image">
+
+            <span class="food-name">
+                ข้าวคะน้าหมู
+            </span>
+
+            <span class="food-price">
+                50 บาท
+            </span>
+
+        </button>
+
+        <button class="food-button"
+            onclick="addToCart('ข้าวไข่เจียวหมูสับ', 45)">
+  <img
+    src="https://images.pexels.com/photos/35049884/pexels-photo-35049884.jpeg?auto=compress&cs=tinysrgb&w=800"
+    alt="ข้าวไข่เจียวหมูสับ"
+    class="food-image">
+
+            <span class="food-name">
+                ข้าวไข่เจียวหมูสับ
+            </span>
+
+            <span class="food-price">
+                45 บาท
+            </span>
+
+        </button>
+
+    </div>
+    <button
+        class="back-button"
+        onclick="window.location.href='food.html'">
+        ← กลับไปเลือกประเภทอาหาร
+    </button>
+
+    <h2 class="cart-title">🛒 ตะกร้าอาหาร</h2>
+
+    <div id="cart">
+        ยังไม่มีอาหารในตะกร้า
+    </div>
+
+    <button class="order-button"
+        onclick="goToOrder()">
+
+        ตรวจสอบออเดอร์
+
+    </button>
+
+    <button
+    class="order-button"
+    onclick="window.location.href='order.html'">
+    🛒 ดูตะกร้าอาหาร
+</button>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
